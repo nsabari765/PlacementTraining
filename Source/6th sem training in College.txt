@@ -1,0 +1,165 @@
+//29-12-2025
+
+--Prime Number--
+
+1. write a program to print largest 4 digit prime number where all digits are prime.
+2. write a program to print smallest 4 digit prime number where all digits are prime.
+
+3. a program to print prime or not using functions.
+4. write a program to print all the prime numbers between 1 and 100. and below some number.
+5. Write a program to print all the prime number between 1 and 100 and count no. of prime numbers.
+6. write a program to print nth prime from nth number.
+7. write a program to print n prime numbers from n number.
+8. write a program to print nth prime number.
+
+
+--Number Logics--
+1. odd or even(can we try to solve this program using gates(and or xor...).
+
+	---Special Number--- (done)
+	1. A two digit number whose addition and multiplication results the same number then the number is called special number.
+	
+	For Ex: 49 => 4+9 and 4*9 and add both and we get same actual number
+	
+	---Neon Number-- (done)
+	Ex: 9^2 => 81 => 8 + 1 = 9 then it is neon number.
+	
+	---Armstrong Number--- (done)
+	Armstrong number is a number that is equal to the sum of power of length of acutal number.
+	
+	Ex: 153 => 1^3, 5^3, 3^3 (3 in power is lenght of acutal number) then add all numbers and we get acutal number.
+	
+	---Evil Number---
+	The number which have more than 2 ones in its binary format is known as evil number.
+	
+	---Automorphic Number---
+	Ex: 5^2 => 25, 76^2 => 5776
+	
+	---Pronic Number--- 
+	Ex: 6 => 2*3( 1, 2, 3, 4, 5, 6 the 6 is come product using within the set).
+	
+	---Spy Number---
+	Ex: 1+3+2 =6 and 1*3*2=6 then it is called as spy number.
+	
+	---Palindrome Number--- (done)
+	Ex: 1441, 2002
+	
+	---Perfect Square Number---
+	Ex: 5*5
+	
+	---Strong Number---
+	Ex: 145 => 1! + 4! + 5! = 145 then it is called as strong number.
+	
+	---Abundant Number---
+	Ex: 12 => find factor of 12 (1, 2, 3, 4, 6 and add it to 16) 16 > 12 then it is abundant number.
+	
+	---Magic Number--- (done)
+	Ex: 1729 => 1+7+2+9 = 19*91 = 1729
+	
+	---Disarium Number---
+	Note: Power of position of that specific number and add all that number.
+	
+	135 => 1^1 + 3^2 + 5^3 = 135.
+	
+	---Trimorphic Number---
+	The Number whose cube results of last digit is same as actual number.
+	
+	Ex: 5^3 => 125(last digit 5 is match with actual given number).
+	
+--Scenario based Querstion--
+	input: 3521, 2452, 1352, 38
+	
+
+//30/12/2025
+
+1. Wap to find 100th prime number?
+2. wap to find 100th and 105th prime number?
+3. Time limit 40 minutes limit time 10:00 am today.
+
+--Recursion--
+Note: A function itself call is known as recursion.
+recursion works on principle of stack(LIFO).
+	
+//02/01/2026
+	
+---SizeOf()---
+	
+1. write the program to declare array for store the element and read the element.	
+2. write a program to find sum of all array elements.
+3. write a program avg of given array elements.
+4. WAP to even number.
+5. WAP to odd number.
+6. WAP to find Prime Number.
+7. WAP to find max element in given array.
+8. WAP to find min element in given array.
+9. WAP to find sum of all even number and all odd number and all prime number in given array.
+10. WAP to reverse in the given array.
+
+---Sorting---
+Note: Ascending and descending order.
+
+1. WAP to do right rotation of an array.
+2. WAP to do left rotation of an array.
+3. WAP to find how many unique values in a given array.
+4. WAP to find how many duplicates in a given array.
+5. WAP to find all prime number in a given array if any prime number there find max prime number.
+6. WAP to find all prime number in a given array if any prime number there find min prime number.
+7. WAP to find the prime number in a given array if you find any prime number then add all prime numbers and 
+sub largest prime numbers.
+
+//03/01/2026
+
+---2D Array---
+
+1. WAP to take inputs for user  given array size store and print the input.
+2. WAP to print transpose of given matrix.
+3. WAP to perform matrix multiplication only if it is eligible.
+4. WAP to add rows, add cols, add diagonals and add anti diagonals.
+5. WAP to add 2 matrix with respective cols.
+
+---String---
+
+Note: 1. Collection of Characters is known as string.
+2. In String atlast null character is appended by compiler to make it End of string.
+3. String supports indexing known as sub address.
+4. Re declration of string is not allowed.
+5. a = char[3] and re-Initialization is not allowed.
+6. String doesn't support item assignment.
+7. If the size of char array is 5 but we stored only 3 char then size of char array automatically changed to 3.
+so size of the char depends on no. of chars given by user.
+
+---ASCII Values---
+
+1. 32 - Space.
+2. 35 - #
+3. 48 - 0
+4. 65 - A
+5. 97 - a
+
+---Problem---
+1. WAP to take input of a string store in an array and print that string.
+2. WAP to count no. of vowels.
+3. WAP to print length of each word in a sentance.
+4. WAP to reverse each word.
+5. WAP to count no. of words in a given input.
+6. WAP to convert upper to lower and lower to upper.
+7. WAP to convert the given input to upper case to lower case according to letter.
+8. WAP to print alphatical order of given string.
+9. WAP to find below logic
+10. WAP to expand the given number. Eg: 35 -> 30 + 5, 132 -> 100 + 30 + 2.
+11. WAP to remove duplicates digits from the given number. Eg: 1334 -> 134.
+12. WAP to sort the given words.
+	
+---Encoding of alphabets---
+
+Message = Start and key = 1357.
+
+---Lexico Logical Order---
+Note: It is also known as Dictionary order.
+
+---Example---
+
+
+---Working Problem---
+
+
