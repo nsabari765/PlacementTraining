@@ -111,11 +111,12 @@ sub largest prime numbers.
 
 ---2D Array---
 
-1. WAP to take inputs for user  given array size store and print the input.
-2. WAP to print transpose of given matrix.
-3. WAP to perform matrix multiplication only if it is eligible.
-4. WAP to add rows, add cols, add diagonals and add anti diagonals.
-5. WAP to add 2 matrix with respective cols.
+1. WAP to take inputs for user  given array size store and print the input. - done
+2. WAP to print transpose of given matrix. - done
+3. WAP to perform matrix multiplication only if it is eligible. - done
+(Matrix multiplication is eligible only when the number of columns in the first matrix equals the number of rows in the second matrix.)
+4. WAP to add rows, add cols, add diagonals and add anti diagonals. - done
+5. WAP to add 2 matrix with respective cols. - done
 
 ---String---
 

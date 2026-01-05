@@ -10,18 +10,18 @@ public class HelloWorld
         Console.WriteLine("Enter the no. of Cols");
         int cols = Convert.ToInt32(Console.ReadLine());
 
-        int[,] a = new int[rows,cols];
+        int[,] a = new int[rows, cols];
         int[,] b = new int[rows, cols];
-        int[,] result = new int[rows,cols];
+        int[,] result = new int[rows, cols];
 
         Console.WriteLine("Enter A's Inputs");
 
         for (int i = 0; i < rows; i++)
         {
-            for(int j = 0; j < cols; j++)
+            for (int j = 0; j < cols; j++)
             {
                 Console.WriteLine($"Enter a of {i}{j}: ");
-                a[i,j] = Convert.ToInt32(Console.ReadLine());
+                a[i, j] = Convert.ToInt32(Console.ReadLine());
             }
         }
 
@@ -62,12 +62,12 @@ public class HelloWorld
 
         for (int i = 0; i < rows; i++)
         {
-            int total = 0;
-
             for (int j = 0; j < cols; j++)
             {
-                total += a[i, j] * b[j, i];
-                result[i,j] = total;
+                for(int k = 0; k < cols; k++)
+                {
+                    result[i, j] += a[i, k] * b[k, j];
+                }
             }
         }
 
