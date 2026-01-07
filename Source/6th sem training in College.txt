@@ -5,12 +5,12 @@
 1. write a program to print largest 4 digit prime number where all digits are prime.
 2. write a program to print smallest 4 digit prime number where all digits are prime.
 
-3. a program to print prime or not using functions.
-4. write a program to print all the prime numbers between 1 and 100. and below some number.
-5. Write a program to print all the prime number between 1 and 100 and count no. of prime numbers.
-6. write a program to print nth prime from nth number.
-7. write a program to print n prime numbers from n number.
-8. write a program to print nth prime number.
+3. a program to print prime or not using functions. - done
+4. write a program to print all the prime numbers between 1 and 100. and below some number. - done
+5. Write a program to print all the prime number between 1 and 100 and count no. of prime numbers. - done
+6. write a program to print nth prime from nth number. - done
+7. write a program to print n prime numbers from n number. - done
+8. write a program to print nth prime number. - done
 
 
 --Number Logics--
