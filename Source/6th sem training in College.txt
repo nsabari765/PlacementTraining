@@ -32,36 +32,36 @@
 	---Evil Number---
 	The number which have more than 2 ones in its binary format is known as evil number.
 	
-	---Automorphic Number---
+	---Automorphic Number--- - done
 	Ex: 5^2 => 25, 76^2 => 5776
 	
-	---Pronic Number--- 
-	Ex: 6 => 2*3( 1, 2, 3, 4, 5, 6 the 6 is come product using within the set).
+	---Pronic Number--- - done
+	Ex: 6 => 2*3( 1, 2, 3, 4, 5 the 6 is come product using within the set).
 	
-	---Spy Number---
+	---Spy Number--- - done
 	Ex: 1+3+2 =6 and 1*3*2=6 then it is called as spy number.
 	
 	---Palindrome Number--- (done)
 	Ex: 1441, 2002
 	
-	---Perfect Square Number---
+	---Perfect Square Number--- - done
 	Ex: 5*5
 	
-	---Strong Number---
+	---Strong Number--- - done
 	Ex: 145 => 1! + 4! + 5! = 145 then it is called as strong number.
 	
-	---Abundant Number---
+	---Abundant Number--- - done
 	Ex: 12 => find factor of 12 (1, 2, 3, 4, 6 and add it to 16) 16 > 12 then it is abundant number.
 	
 	---Magic Number--- (done)
 	Ex: 1729 => 1+7+2+9 = 19*91 = 1729
 	
-	---Disarium Number---
+	---Disarium Number--- - done
 	Note: Power of position of that specific number and add all that number.
 	
 	135 => 1^1 + 3^2 + 5^3 = 135.
 	
-	---Trimorphic Number---
+	---Trimorphic Number--- - done
 	The Number whose cube results of last digit is same as actual number.
 	
 	Ex: 5^3 => 125(last digit 5 is match with actual given number).
