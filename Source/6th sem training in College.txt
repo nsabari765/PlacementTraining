@@ -98,8 +98,8 @@ recursion works on principle of stack(LIFO).
 ---Sorting---
 Note: Ascending and descending order.
 
-1. WAP to do right rotation of an array.
-2. WAP to do left rotation of an array.
+1. WAP to do right rotation of an array. - done(Need Optimize Solution)
+2. WAP to do left rotation of an array. - done(Need Optimize Solution)
 3. WAP to find how many unique values in a given array.
 4. WAP to find how many duplicates in a given array.
 5. WAP to find all prime number in a given array if any prime number there find max prime number.
