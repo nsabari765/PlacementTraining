@@ -101,7 +101,7 @@ Note: Ascending and descending order.
 1. WAP to do right rotation of an array. - done(Need Optimize Solution)
 2. WAP to do left rotation of an array. - done(Need Optimize Solution)
 3. WAP to find how many unique values in a given array. - done
-4. WAP to find how many duplicates in a given array.
+4. WAP to find how many duplicates in a given array. - done
 5. WAP to find all prime number in a given array if any prime number there find max prime number.
 6. WAP to find all prime number in a given array if any prime number there find min prime number.
 7. WAP to find the prime number in a given array if you find any prime number then add all prime numbers and 
@@ -161,6 +161,8 @@ Note: It is also known as Dictionary order.
 ---Example---
 
 
----Working Problem---
+AI - tools
+1. Grok - research
+2. mapkinai - mind map
 
 
