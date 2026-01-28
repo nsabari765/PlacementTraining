@@ -102,10 +102,9 @@ Note: Ascending and descending order.
 2. WAP to do left rotation of an array. - done(Need Optimize Solution)
 3. WAP to find how many unique values in a given array. - done
 4. WAP to find how many duplicates in a given array. - done
-5. WAP to find all prime number in a given array if any prime number there find max prime number.
-6. WAP to find all prime number in a given array if any prime number there find min prime number.
-7. WAP to find the prime number in a given array if you find any prime number then add all prime numbers and 
-sub largest prime numbers.
+5. WAP to find all prime number in a given array if any prime number there find max prime number. - done
+6. WAP to find all prime number in a given array if any prime number there find min prime number. - done
+7. WAP to find the prime number in a given array if you find any prime number then add all prime numbers. - done
 
 //03/01/2026
 
@@ -118,7 +117,7 @@ sub largest prime numbers.
 4. WAP to add rows, add cols, add diagonals and add anti diagonals. - done
 5. WAP to add 2 matrix with respective cols. - done
 
----String---
+---String Concept---
 
 Note: 1. Collection of Characters is known as string.
 2. In String atlast null character is appended by compiler to make it End of string.
@@ -138,10 +137,10 @@ so size of the char depends on no. of chars given by user.
 5. 97 - a
 
 ---Problem---
-1. WAP to take input of a string store in an array and print that string.
-2. WAP to count no. of vowels.
-3. WAP to print length of each word in a sentance.
-4. WAP to reverse each word.
+1. WAP to take input of a string store in an array and print that string. - done
+2. WAP to count no. of vowels. - done
+3. WAP to print length of each word in a sentance. - done
+4. WAP to reverse each word.	
 5. WAP to count no. of words in a given input.
 6. WAP to convert upper to lower and lower to upper.
 7. WAP to convert the given input to upper case to lower case according to letter.
