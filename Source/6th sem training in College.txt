@@ -141,9 +141,9 @@ so size of the char depends on no. of chars given by user.
 2. WAP to count no. of vowels. - done
 3. WAP to print length of each word in a sentance. - done
 4. WAP to reverse each word. - done(by using Stack Concept)
-5. WAP to count no. of words in a given input.
-6. WAP to convert upper to lower and lower to upper.
-7. WAP to convert the given input to upper case to lower case according to letter.
+5. WAP to count no. of words in a given input. - done
+6. WAP to convert upper to lower and lower to upper. - done
+7. WAP to convert the given input to upper case to lower case according to letter. - done
 8. WAP to print alphatical order of given string.
 9. WAP to find below logic
 10. WAP to expand the given number. Eg: 35 -> 30 + 5, 132 -> 100 + 30 + 2.
