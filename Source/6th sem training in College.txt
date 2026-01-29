@@ -140,7 +140,7 @@ so size of the char depends on no. of chars given by user.
 1. WAP to take input of a string store in an array and print that string. - done
 2. WAP to count no. of vowels. - done
 3. WAP to print length of each word in a sentance. - done
-4. WAP to reverse each word.	
+4. WAP to reverse each word. - done(by using Stack Concept)
 5. WAP to count no. of words in a given input.
 6. WAP to convert upper to lower and lower to upper.
 7. WAP to convert the given input to upper case to lower case according to letter.
