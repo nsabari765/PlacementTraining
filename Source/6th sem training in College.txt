@@ -144,10 +144,10 @@ so size of the char depends on no. of chars given by user.
 5. WAP to count no. of words in a given input. - done
 6. WAP to convert upper to lower and lower to upper. - done
 7. WAP to convert the given input to upper case to lower case according to letter. - done
-8. WAP to print alphatical order of given string.
+8. WAP to print alphatical order of given string. - done
 9. WAP to find below logic
 10. WAP to expand the given number. Eg: 35 -> 30 + 5, 132 -> 100 + 30 + 2.
-11. WAP to remove duplicates digits from the given number. Eg: 1334 -> 134.
+11. WAP to remove duplicates digits from the given number. Eg: 1334 -> 134. - done
 12. WAP to sort the given words.
 	
 ---Encoding of alphabets---
