@@ -1,0 +1,42 @@
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    {
+        var index = StrStr("aaa", "aaaa");
+        Console.WriteLine("First Occurrence = " + index);
+    }
+
+    public static int StrStr(string haystack, string needle)
+    {
+        int needleSize = needle.Length;
+        int hayStackSize = haystack.Length;
+
+        if (hayStackSize < needleSize)
+        {
+            return -1;
+        }
+
+        int endIndex = 0;
+
+        for (int i = 0; IsSatisfied(i, endIndex, hayStackSize); i++)
+        {
+            endIndex = i + (needleSize - 1);
+
+            var str = haystack.AsSpan(i, needleSize).ToString();
+
+            if (needle.Equals(str))
+            {
+                return i;
+            }
+        }
+
+        return -1;
+    }
+
+    public static bool IsSatisfied(int i, int endIndex, int hayStackSize)
+    {
+        return i < hayStackSize &&
+            (endIndex == 0 ||
+            endIndex < hayStackSize - 1);
+    }
+}
