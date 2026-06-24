@@ -1,0 +1,40 @@
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    {
+        string[] strs = { "cir", "car" };
+        Console.WriteLine("Longest Common Prefix = " + LongestCommonPrefix(strs));
+    }
+
+    public static string LongestCommonPrefix(string[] strs)
+    {
+        string currentCp = strs[0];
+        string cp = string.Empty;
+
+        if (strs.Length == 1)
+        {
+            return strs[0];
+        }
+
+        for (int i = 1; i < strs.Length; i++)
+        {
+            cp = string.Empty;
+
+            for (int j = 0; (j < currentCp.Length && j < strs[i].Length); j++)
+            {
+                if (currentCp[j] == strs[i][j])
+                {
+                    cp += strs[i][j];
+                }
+                else
+                {
+                    break;
+                }
+            }
+
+            currentCp = cp;
+        }
+
+        return cp;
+    }
+}
