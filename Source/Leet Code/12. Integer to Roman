@@ -1,0 +1,49 @@
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    {
+        Console.Write("Enter a number = ");
+        int num = Convert.ToInt32(Console.ReadLine());
+        Console.WriteLine("Int to Roman = {0}", IntToRoman(num));
+    }
+
+    public static string IntToRoman(int num)
+    {
+        string response = string.Empty;
+
+        Dictionary<int, string> dict = new Dictionary<int, string>
+        {
+            {1, "I" },
+            {4, "IV" },
+            {5, "V" },
+            {9, "IX" },
+            {10, "X" },
+            {40, "XL" },
+            {50, "L" },
+            {90, "XC" },
+            {100, "C" },
+            {400, "CD" },
+            {500, "D" },
+            {900, "CM" },
+            {1000, "M" },
+        };
+
+        if (num > 0)
+        {
+            int count = 0;
+
+            for (int i = dict.Count - 1; i >= 0; i--)
+            {
+                count = num / dict.Keys.ElementAt(i);
+
+                if (count != 0)
+                {
+                    response += string.Concat(Enumerable.Repeat(dict.Values.ElementAt(i), count));
+                    num %= dict.Keys.ElementAt(i);
+                }
+            }
+        }
+
+        return response;
+    }
+}
